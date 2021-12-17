@@ -1,13 +1,20 @@
 # CUSTOM LOG SHIPPING USING SQL SERVER
 
 ### Table of Contents
-* [General Info] (#general-info)
-* [Tools and Technology] (#technologies)
-* [Pembuatan Script Backup and Restore] (#pembuatan-script)
-* [Pembuatan Web Based] (#web-based)
+#### 1. General Info
+#### 2. Pembuatan Script Backup and Restore di SQL Server
+#### 3.
+#### 4. Pembuatan Web Based
 
-### General Info
+## General Info
 Project ini merupakan bagian final project dari mata kuliah teknologi basis data. Inti dari final project ini adalah membuat sebuah custom log shipping. 
 
-Berikut merupakan cara yang dilakukan dalam pembuatan custom log shipping pada SQL Server. Terbagi menjadi dua tahapan yaitu: <br>
-### 1. Pembuatan 
+
+## Pembuatan Script Backup and Restore di SQL Server
+### Alat dan Bahan
+  * Windows
+  * SQL Server 2019 Express Edition
+  * SSMS
+
+### Tahapan Pembuatan
+#### 1. Menghubungkan instance backup ke instance master
