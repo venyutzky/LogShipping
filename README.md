@@ -508,7 +508,7 @@ streamlit run app.py
 3. Kemudian masukkan nama dan lokasi dan pilih radio button sesuai dengan gambar di bawah
 ![image](https://user-images.githubusercontent.com/54930670/146623430-e729f252-dcbf-41f6-b9a6-1e831f304c78.png)
 4. Pada bagian `Triggers` klik bagian `New` dan pilih sesuai dengan gambar dibawah untuk dilakukan 15 menit.
-![image](https://user-images.githubusercontent.com/54930670/146623481-228ae34b-e042-4213-94e1-d4afc0bb6b68.png)
+![image](https://user-images.githubusercontent.com/54930670/146623676-fec9c8de-dffb-441f-a788-1f255a9b7a04.png)
 5. Pada bagian `Actions` klik bagian `New` lalu inputkan script berikut ke dalam `Program/script`
 ```
 sqlcmd -S VENYUTZKY -d TBD -E -Q "EXEC dbo.PMAG_Backup @dbname = N'TBD', @type = 'trn';"
