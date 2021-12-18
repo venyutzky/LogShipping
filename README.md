@@ -508,7 +508,7 @@ streamlit run app.py
 ## Pembuatan Automasi Backup
 1. buka task scheduler yang ada pada windows.
 2. pada bagian `Actions` pilih `Create Task`
-![image](https://user-images.githubusercontent.com/54930670/146623330-1eddcc7e-2aee-4fc8-affa-0ed3d417e255.png)
+![image](https://user-images.githubusercontent.com/54930670/146623330-1eddcc7e-2aee-4fc8-affa-0ed3d417e255.png) <br>
 3. Kemudian masukkan nama dan lokasi dan pilih radio button sesuai dengan gambar di bawah
  <br>
 ![image](https://user-images.githubusercontent.com/54930670/146623430-e729f252-dcbf-41f6-b9a6-1e831f304c78.png)
