@@ -508,18 +508,24 @@ streamlit run app.py
 1. buka task scheduler yang ada pada windows.
 2. pada bagian `Actions` pilih `Create Task`
 ![image](https://user-images.githubusercontent.com/54930670/146623330-1eddcc7e-2aee-4fc8-affa-0ed3d417e255.png)
+<br>
 3. Kemudian masukkan nama dan lokasi dan pilih radio button sesuai dengan gambar di bawah
 ![image](https://user-images.githubusercontent.com/54930670/146623430-e729f252-dcbf-41f6-b9a6-1e831f304c78.png)
+<br>
 4. Pada bagian `Triggers` klik bagian `New` dan pilih sesuai dengan gambar dibawah untuk dilakukan 15 menit.
 ![image](https://user-images.githubusercontent.com/54930670/146623676-fec9c8de-dffb-441f-a788-1f255a9b7a04.png)
+<br>
 5. Pada bagian `Actions` klik bagian `New` lalu inputkan script berikut ke dalam `Program/script`
 ```
 sqlcmd -S VENYUTZKY -d TBD -E -Q "EXEC dbo.PMAG_Backup @dbname = N'TBD', @type = 'trn';"
 ```
 ![image](https://user-images.githubusercontent.com/54930670/146623533-9bdce106-bf88-4536-8c89-b3e14e8ba36c.png)
+<br>
 6. Pada bagian `Conditions` dan bagian `Power` uncheck *start the task only if the computer is on AC power*
 ![image](https://user-images.githubusercontent.com/54930670/146623601-bfde02cb-7786-4e9d-afc1-ca363d8def17.png)
+<br>
 7. Pada bagian `Settings` check *Run task as soon as Possible after a scheduled start is missed*
 ![image](https://user-images.githubusercontent.com/54930670/146623641-0b811998-d2cd-46d3-b69e-798132dba290.png)
+<br>
 8. Klik `OK`
 
