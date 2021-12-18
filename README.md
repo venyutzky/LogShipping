@@ -488,4 +488,16 @@ Untuk web app dibuat menggunakan *Streamlit*. alasan menggunakan *streamlit* kar
 ```
 python.exe -m venv . 
 ```
+kemudian mengaktifkan virtual environment dengan masuk ke dalam folder `Scripts` dan mengetikkan `activate` di dalam `terminal`. setelah virtual environment aktif maka dapat dilakukan instalasi `streamlit` dan library yang lainnya.
+```
+pip install streamlit
+pip install pandas
+pip install pyodbc
+pip install datetime
+pip install pymongo
+```
+Setelah semua proses instalasi telah dilakukan. maka streamlit dapat dijalankan pada folder `Log Shipping`.
+```
+streamlit run app.py
+```
 
