@@ -3,6 +3,9 @@
 ## General Info
 Project ini merupakan bagian final project dari mata kuliah teknologi basis data. Inti dari final project ini adalah membuat sebuah custom log shipping. 
 
+Gambaran Arsitektur
+![arsitektur TBD](https://user-images.githubusercontent.com/54930670/146624199-4863dce1-b9a0-4b22-92d4-8977bd22b83b.png)
+
 
 ## Pembuatan Script Backup and Restore di SQL Server
 ### Alat dan Bahan
