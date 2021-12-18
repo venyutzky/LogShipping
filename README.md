@@ -3,9 +3,10 @@
 ## General Info
 Project ini merupakan bagian final project dari mata kuliah teknologi basis data. Inti dari final project ini adalah membuat sebuah custom log shipping. 
 
-Gambaran Arsitektur
-![arsitektur TBD](https://user-images.githubusercontent.com/54930670/146624199-4863dce1-b9a0-4b22-92d4-8977bd22b83b.png)
+Gambaran Arsitektur<br>
 
+![arsitektur TBD](https://user-images.githubusercontent.com/54930670/146624199-4863dce1-b9a0-4b22-92d4-8977bd22b83b.png)
+<br>
 
 ## Pembuatan Script Backup and Restore di SQL Server
 ### Alat dan Bahan
@@ -507,9 +508,11 @@ streamlit run app.py
 ## Pembuatan Automasi Backup
 1. buka task scheduler yang ada pada windows.
 2. pada bagian `Actions` pilih `Create Task`
+<br>
 ![image](https://user-images.githubusercontent.com/54930670/146623330-1eddcc7e-2aee-4fc8-affa-0ed3d417e255.png)
 <br>
 3. Kemudian masukkan nama dan lokasi dan pilih radio button sesuai dengan gambar di bawah
+ <br>
 ![image](https://user-images.githubusercontent.com/54930670/146623430-e729f252-dcbf-41f6-b9a6-1e831f304c78.png)
 <br>
 4. Pada bagian `Triggers` klik bagian `New` dan pilih sesuai dengan gambar dibawah untuk dilakukan 15 menit.
@@ -519,12 +522,15 @@ streamlit run app.py
 ```
 sqlcmd -S VENYUTZKY -d TBD -E -Q "EXEC dbo.PMAG_Backup @dbname = N'TBD', @type = 'trn';"
 ```
+<br>
 ![image](https://user-images.githubusercontent.com/54930670/146623533-9bdce106-bf88-4536-8c89-b3e14e8ba36c.png)
 <br>
 6. Pada bagian `Conditions` dan bagian `Power` uncheck *start the task only if the computer is on AC power*
+<br>
 ![image](https://user-images.githubusercontent.com/54930670/146623601-bfde02cb-7786-4e9d-afc1-ca363d8def17.png)
 <br>
 7. Pada bagian `Settings` check *Run task as soon as Possible after a scheduled start is missed*
+<br>
 ![image](https://user-images.githubusercontent.com/54930670/146623641-0b811998-d2cd-46d3-b69e-798132dba290.png)
 <br>
 8. Klik `OK`
